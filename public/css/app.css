@@ -141,6 +141,8 @@
 .bluenav2 a img{
     max-width: 50px;
     max-height: 50px;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 .bluenav2 a{
