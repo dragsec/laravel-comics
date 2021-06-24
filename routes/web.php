@@ -14,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $comicsInfo = config('comics');
 
-    return view('home');
-});
+    $comicsArray = [
+        "comicsList" => $comicsInfo
+    ];
+
+    return view('homepage');
+})->name('homepage');
 
 
 
+
+Route::get('/placeholder', function() {
+    return "Page not ready";
+})->name('placeholder');
