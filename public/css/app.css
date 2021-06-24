@@ -8,3 +8,77 @@
 .test{
     font-size: large;
 }
+
+.mainBG{
+    background-color: #1C1C1C;
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.BlueWhite{
+    background-color: #0282F9;
+    color: white;
+}
+
+.BlueBtn{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: -25px;
+    left: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlueBtnMini{
+    font-size: 10px;
+    font-weight: bold;
+    width: 175px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivComics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.DivComicsSingle{  
+    flex-basis: calc(100% / 6);
+    padding: 0 5px;
+    margin: 20px 0;
+}
+
+.ComicsCover{
+    width: 175px;
+    height: 175px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1250px;
+}
+
+.none{
+    text-decoration: none; 
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -20,11 +20,19 @@ Route::get('/', function () {
         "comicsList" => $comicsInfo
     ];
 
-    return view('homepage');
+    return view('homepage', $comicsArray);
 })->name('homepage');
 
 
+Route::get('/comics/{index}', function ($index) {
+    $comicsInfo = config('comics');
 
+    $singleComic = $comicsInfo[$index];
+    
+    return view('comics', [
+        'singleComic' => $singleComic
+    ]);
+})->name('comics');
 
 Route::get('/placeholder', function() {
     return "Page not ready";
