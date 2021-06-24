@@ -12,7 +12,7 @@
         <ul class="header2UL"> 
             <li><img src="{{ asset('images/dc-logo.png') }}"  alt="" height="60px" width="60px"></li>
             <li>CHARACTERS</li>
-            <li class="blueunderline">COMICS</li>
+            <li class="blueunderline bluefont">COMICS</li>
             <li>MOVIES</li>
             <li>TV</li>
             <li>GAMES</li>

@@ -60,6 +60,9 @@
   border-bottom: 3px solid #0282F9;
 }
 
+.bluefont{
+    color: #0282F9;
+}
 .padleft40px{
     padding-left: 40px;
 }
