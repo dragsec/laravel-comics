@@ -21,5 +21,22 @@
         </div>
     </div>
 
+    <div class="blueNav BlueWhite">
+
+        <div class="container bluenav2">
+            <a><img src="{{ asset('images/buy-comics-digital-comics.png') }}"><span>DIGITAL COMICS</span></a>
+
+            <a><img src="{{ asset('images/buy-comics-merchandise.png') }}"><span>DC MERCHANDISE</span></a>
+
+            <a><img src="{{ asset('images/buy-comics-subscriptions.png') }}"><span>SUBSCRIPTION</span></a>
+            
+            <a><img src="{{ asset('images/buy-comics-shop-locator.png') }}"><span>COMIC SHOP LOCATOR</span></a>
+
+            <a><img src="{{ asset('images/buy-dc-power-visa.svg') }}"><span>DC POWER VISA</span></a>
+        </div>
+
+    </div>
+
+
 </main>
 @endsection
