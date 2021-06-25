@@ -20,6 +20,11 @@
 .fontgray{
     color: gray;
 }
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1250px;
+}
 
 /* header */
 
@@ -121,11 +126,7 @@
     object-position: top;
 }
 
-.container{
-    margin: auto;
-    width: 100%;
-    max-width: 1250px;
-}
+
 
 .none{
     text-decoration: none; 
@@ -236,4 +237,82 @@
 }
 .flex{
     display: flex;
+}
+
+
+/* comics single */
+.containerComics{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.blueDiv{
+    background-color: #0282F9;
+    height: 80px;
+    width: 100vw;
+    position: relative;
+}
+.sposta{
+    position: absolute;
+    top: -300px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.advert{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5A5555;
+    text-align: end;
+}
+.padpad{
+    padding: 30px 0;
+}
+.greenBar {
+    display: flex;
+    background-color: #55BA59;
+    font-size: 14px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.greenBtn{
+    border-left: 1px solid;
+    padding: 20px;
+}
+.lightgrayCont{
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    background-color: #F6F6F6;
+}
+.price{
+    padding: 20px;
+}
+.avail{
+    margin-left: 300px;
+}
+
+.graybot{
+    border-bottom: 1px solid #E3E3E3;
+}
+.bottomDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 1px solid #E3E3E3;
+    border-left: 1px solid #E3E3E3;  
+    padding: 10px 100px;
+    font-size: 10px;
+}
+
+.divdue{
+    width: 495px;
+    padding-bottom: 50px;
+}
+
+.graybot div:nth-of-type(2){
+padding-left: 100px;
 }

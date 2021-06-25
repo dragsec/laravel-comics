@@ -34,6 +34,6 @@ Route::get('/comics/{index}', function ($index) {
     ]);
 })->name('comics');
 
-Route::get('/placeholder', function() {
+/* Route::get('/placeholder', function() {
     return "Page not ready";
-})->name('placeholder');
+})->name('placeholder'); */
